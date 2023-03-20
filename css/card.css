@@ -1,0 +1,101 @@
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    gap: 100px;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 375px;
+    background-color: #F5E7D3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.card__estado {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 20px;
+}
+
+.card__sigla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #FA9E27;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card__descricao{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 05px;
+}
+
+.nome__estado{
+    color: #FA9E27;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.capital__estado{
+    display: flex;
+}
+
+.capital{
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.nome__capital{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.regiao__estado{
+    display: flex;
+}
+
+.regiao{
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.nome__regiao{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card__cidades p{
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.lista__cidades{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 200px;
+}
+
+.cidade{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
